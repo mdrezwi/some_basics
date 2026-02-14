@@ -1,0 +1,86 @@
+[
+    {
+        "division": "Hardware",
+        "headquarters": "San Jose",
+        "assets": [
+            {"id": "H1", "name": "Server Farm Alpha", "status": "active", "specs": {"racks": 40, "gpu_units": 320}},
+            {"id": "H2", "name": "R&D Lab", "status": "maintenance", "specs": {"clean_room": true, "scientists": 12}}
+        ],
+        "management": {
+            "VP": "Sarah Chen",
+            "direct_reports": ["Alice", "Bob"]
+        }
+    },
+    {
+        "division": "Software",
+        "headquarters": "Berlin",
+        "assets": [
+            {"id": "S1", "name": "Cloud OS", "versions": [{"v": "1.0", "stable": true}, {"v": "2.0", "stable": false}]},
+            {"id": "S2", "name": "AI Engine", "versions": [{"v": "beta", "stable": false}]}
+        ],
+        "management": {
+            "VP": "Marco Rossi",
+            "direct_reports": ["Dave", "Elena", "Fiona"]
+        }
+    },
+    {
+        "division": "Cybersecurity",
+        "headquarters": "Tel Aviv",
+        "assets": [
+            {"id": "C1", "name": "Threat Monitoring Center", "status": "active", "specs": {"analysts": 25, "alerts_per_day": 1500}},
+            {"id": "C2", "name": "PenTest Lab", "status": "active", "specs": {"test_servers": 18, "certified_hackers": 10}}
+        ],
+        "management": {
+            "VP": "Daniel Cohen",
+            "direct_reports": ["Iris", "Noam"]
+        }
+    },
+    {
+        "division": "Cloud Infrastructure",
+        "headquarters": "Singapore",
+        "assets": [
+            {"id": "CI1", "name": "Asia Data Hub", "status": "active", "specs": {"regions": 6, "uptime": "99.99%"}},
+            {"id": "CI2", "name": "Edge Network", "status": "expansion", "specs": {"nodes": 120, "countries": 15}}
+        ],
+        "management": {
+            "VP": "Mei Lin",
+            "direct_reports": ["Ken", "Arjun", "Lina"]
+        }
+    },
+    {
+        "division": "Mobile Technologies",
+        "headquarters": "Seoul",
+        "assets": [
+            {"id": "M1", "name": "Android Suite", "versions": [{"v": "3.2", "stable": true}, {"v": "4.0", "stable": false}]},
+            {"id": "M2", "name": "iOS Companion App", "versions": [{"v": "2.5", "stable": true}]}
+        ],
+        "management": {
+            "VP": "Jin Park",
+            "direct_reports": ["Hana", "Min", "Soo"]
+        }
+    },
+    {
+        "division": "Data Science",
+        "headquarters": "Toronto",
+        "assets": [
+            {"id": "D1", "name": "Analytics Platform", "status": "active", "specs": {"pipelines": 45, "models": 120}},
+            {"id": "D2", "name": "ML Research Cluster", "status": "active", "specs": {"gpu_nodes": 60, "researchers": 22}}
+        ],
+        "management": {
+            "VP": "Olivia Brown",
+            "direct_reports": ["Liam", "Emma", "Noah"]
+        }
+    },
+    {
+        "division": "Customer Support",
+        "headquarters": "Dublin",
+        "assets": [
+            {"id": "CS1", "name": "Global Helpdesk", "status": "active", "specs": {"agents": 150, "languages_supported": 12}},
+            {"id": "CS2", "name": "Ticketing System", "status": "upgrade", "specs": {"tickets_per_month": 50000, "automation_rate": "65%"}}
+        ],
+        "management": {
+            "VP": "Patrick O'Connor",
+            "direct_reports": ["Sophie", "Ryan", "Clara"]
+        }
+    }
+]
