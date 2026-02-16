@@ -3,51 +3,19 @@ import pandas as pd
 df = pd.read_json("data.json")
 data_structure = df.to_dict(orient="records")
 
-# Goal : To count total number of divisions
 
-# setting an initial value to store count, initial value set to 0
-count=0
+print(data_structure[2]["headquarters"])
 
-# we will loop through all data
-for s in data_structure:
-    #print(s['division'])   # we don't need to print divisions to just count it 
-
-    count += 1      # we will increment external variable count by 1 in each loop
-                    # external variable count's value will keep increasing in each loop
-    
-print(f"Count : {count}")        # finally we will print the count
-                                 # we use f string to add some more information
-         
-
-    
-    
-      
-    
-   
-    
-    
-    
-        
-        
-        
-        
-        
-#         
-# c = 0
-# 
-# for _ in data_structure:
-#     c = c+1
-# 
-# print(f"Total number of division is {c}")
-    
-    
+# there is a variable called data_structure, which is in list format
+# In which we have to access index 1 data
+# And after accessing the index data we came to know that, 
+# it is returning Dictionary data,
+# we needed value of 'assest data', it returns a list
+# Again we needed  data of index [0] from it,
+# then data of 'version' key which was again a list data 
+# we accessed last data by '[-1]' index,then
+# then finally we accessed version number by 'v' key  
+print(data_structure[1]["assets"][0]["versions"][-1]["v"])
 
 
-
-
-
-
-
-
-
-
+print(data_structure[1]["assets"][0]["versions"][-1]["stable"])
