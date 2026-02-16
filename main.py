@@ -19,3 +19,5 @@ print(data_structure[1]["assets"][0]["versions"][-1]["v"])
 
 
 print(data_structure[1]["assets"][0]["versions"][-1]["stable"])
+
+print(data_structure[0]["assets"])
